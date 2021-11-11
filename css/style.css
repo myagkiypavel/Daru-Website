@@ -225,7 +225,8 @@ a.active {
   background-color: indianred;
 }
 
-.menu span {
+.menu span,
+.menu span a {
   margin-right: 25px;
   font-size: 18px;
   font-weight: 500;

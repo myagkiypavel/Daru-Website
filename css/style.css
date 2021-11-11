@@ -1,0 +1,442 @@
+/* San Francisco Pro */
+
+@font-face {
+  font-family: "San Francisco Pro";
+  src: url("../assets/fonts/SFProDisplay/SFProDisplay-Regular.woff2") format("woff2"),
+  url("../assets/fonts/SFProDisplay/SFProDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "San Francisco Pro";
+  src: url("../assets/fonts/SFProDisplay/SFProDisplay-Medium.woff2") format("woff2"),
+  url("../assets/fonts/SFProDisplay/SFProDisplay-Medium.woff") format("wooff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "San Francisco Pro";
+  src: url("../assets/fonts/SFProDisplay/SFProDisplay-Semibold.woff2") format("woff2"),
+  url("../assets/fonts/SFProDisplay/SFProDisplay-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "San Francisco Pro";
+  src: url("../assets/fonts/SFProDisplay/SFProDisplay-Bold.woff2") format("woff2"),
+  url("../assets/fonts/SFProDisplay/SFProDisplay-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Mont */
+
+@font-face {
+  font-family: "Mont";
+  src: url("../assets/fonts/Mont/Mont-Regular.woff2") format("woff2"),
+  url("../assets/fonts/Mont/Mont-Regular.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mont";
+  src: url("../assets/fonts/Mont/Mont-SemiBold.woff2") format("woff2"),
+  url("../assets/fonts/Mont/Mont-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mont";
+  src: url("../assets/fonts/Mont/Mont-Bold.woff2") format("woff2"),
+  url("../assets/fonts/Mont/Mont-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "San Francisco Pro",Arial, Helvetica, sans-serif;
+} 
+
+h1 {
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 62px;
+  color: #FFF;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 42px;
+  color: #FFF;
+}
+
+h3 {
+  font-family: "Mont",Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #FFF;
+}
+
+h4 {
+  font-family: "Mont",Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #717E92;
+}
+
+
+.btn {
+  width: 100%;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Mont",Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+  color: #FFF;
+}
+
+.btn-primary {
+  background: #6A7395;
+}
+
+.btn-secondary {
+  background-color: #6A9590;
+}
+
+.btn-gold {
+  background-color: #95936A;
+}
+
+.btn-dark {
+  background-color: #212A38;
+}
+
+.btn-green {
+  background-color: #5CA35B;
+}
+
+p {
+  font-size: 20px;
+  color: #6A7C95;
+  line-height: 28px;
+}
+
+.container{
+  width: 1163px;
+  margin: 0 auto;
+}
+
+.dark {
+  background-color: #11161E;
+}
+
+.light-dark {
+  background-color: #181F29;
+}
+
+/* Header */
+
+.menu {
+  padding: 145px 0 165px;
+}
+
+.menu a {
+  text-decoration: none; 
+  font-size: 18px;
+  font-weight: 500;
+  color: #76869F;
+  opacity: .8;
+}
+
+.menu a.active {
+  font-weight: 600;
+  color: #5CA35B;
+}
+
+.menu li {
+  list-style-type: none;
+}
+
+.menu__row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 210px;
+}
+
+.menu__left ul,
+.menu__right ul {
+  display: flex;
+}
+
+.menu__left li,
+.menu__right li {
+  margin-right: 58px;
+}
+
+.menu__left li:last-child,
+.menu__right li:last-child {
+  margin: 0;
+}
+
+.header__content {
+  display: flex;
+}
+
+.menu h1 {
+  padding-top: 50px;
+  max-width: 578px;
+  margin-bottom: 38px;
+}
+
+.menu p {
+  max-width: 473px;
+  margin-bottom: 67px;
+  flex: 26px;
+}
+
+.menu button {
+  margin-bottom: 178px;
+  max-width: 262px;
+  padding: 12px;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "San Francisco Pro",Arial, Helvetica, sans-serif;
+}
+
+.menu span {
+  margin-right: 25px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #76869F;
+  opacity: .8;
+}
+
+.menu span:last-child {
+  margin: 0;
+}
+
+.menu span img {
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+/* About */
+
+.about .wrap {
+  padding: 160px 0 163px;
+}
+
+.about h2 {
+  margin-bottom: 22px;
+}
+
+.about .about__text {
+  margin-bottom: 65px;
+  max-width: 753px;
+}
+
+.about__cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__cards-item {
+  width: 317px;
+  padding: 38px;
+  border-radius: 15px;
+  background-color:#273140;
+  text-align: center;
+}
+
+.about__cards-item .img  {
+  margin-bottom: 28px;
+}
+
+.about__cards-item h3 {
+  margin-bottom: 18px;
+}
+
+/* Opportunity */
+
+.opportunity .wrap {
+  padding: 145px 0 170px;
+}
+
+.opportunity h2 {
+  margin-bottom: 22px;
+}
+
+.opportunity p {
+  width: 600px;
+  margin-bottom: 60px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.opportunity .img:first-child {
+  margin-right: 47px;
+}
+
+.opportunity .img:nth-child(2) {
+  margin-right: 28px;
+}
+
+/* Comfort */
+
+.comfort .wrap {
+  padding-top: 145px;
+  display: flex;
+}
+
+.comfort h2 {
+  margin-bottom: 22px;
+}
+
+.comfort p {
+  max-width: 565px;
+  margin-bottom: 50px;
+}
+
+.comfort button {
+  max-width: 262px;
+  font-family: "San Francisco Pro",Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #6A7C95;
+}
+
+.comfort .comfort__img {
+  display: flex;
+  align-items: end;
+}
+
+.comfort__img-left {
+  margin: 0 68px 0 20px;
+}
+
+/* Advantage */
+
+.advantage .wrap {
+  padding: 143px 0 180px;
+}
+
+.advantage h2 {
+  margin-bottom: 22px;
+}
+
+.advantage p {
+  width: 514px;
+  margin-bottom: 48px;
+}
+
+.advantage .cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantage .cards__item {
+  min-width: 317px;
+  padding: 53px 26px 47px;
+  border-radius: 15px;
+  background-color: #273140;
+}
+
+.advantage .title {
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.advantage ul {
+  margin-bottom: 40px;
+}
+
+.advantage li {
+  font-family: "Mont",Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0 0 10px 20px;
+  color: #717E92;
+}
+
+.advantage li:last-child {
+  margin: 0 0 0 20px;
+}
+
+.hidden {
+  opacity: .2;
+}
+
+
+/* Update */
+
+.update .wrap {
+  padding: 145px 0 115px;
+}
+
+.update h2 {
+  margin-bottom: 22px;
+}
+
+.update p {
+  max-width: 565px;
+  margin-bottom: 22px;
+}
+
+.update img {
+  margin-right: 38px;
+}
+
+.update img:last-child {
+  margin: 0;
+}
+
+
+/* Footer */
+
+.footer {
+  font-size: 12px;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #2D3746;
+}
+
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0 75px;
+}
+
+.copy {
+  display: flex;
+  align-items: center;
+}
+
+.footer img {
+  margin-right: 18px;
+}
+
+.text-right {
+  text-align: right;
+}

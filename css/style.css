@@ -150,13 +150,31 @@ p {
   background-color: #181F29;
 }
 
-/* Header */
-
+/* New header */
 .menu {
   padding: 145px 0 165px;
 }
 
-.menu a {
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.main-menu li,
+.user-menu li {
+  display: inline;
+  margin-right: 58px;
+}
+
+.main-menu a,
+.user-menu a{
   text-decoration: none; 
   font-size: 18px;
   font-weight: 500;
@@ -164,34 +182,16 @@ p {
   opacity: .8;
 }
 
-.menu a.active {
+.main-menu a:last-child,
+.user-menu a:last-child {
+  margin: 0;
+}
+
+.main-menu a:hover,
+.user-menu a:hover,
+a.active {
   font-weight: 600;
   color: #5CA35B;
-}
-
-.menu li {
-  list-style-type: none;
-}
-
-.menu__row {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 210px;
-}
-
-.menu__left ul,
-.menu__right ul {
-  display: flex;
-}
-
-.menu__left li,
-.menu__right li {
-  margin-right: 58px;
-}
-
-.menu__left li:last-child,
-.menu__right li:last-child {
-  margin: 0;
 }
 
 .header__content {
@@ -214,9 +214,14 @@ p {
   margin-bottom: 178px;
   max-width: 262px;
   padding: 12px;
+  cursor: pointer;
   font-weight: 400;
   font-size: 24px;
   font-family: "San Francisco Pro",Arial, Helvetica, sans-serif;
+}
+
+.menu button:hover {
+  background-color: indianred;
 }
 
 .menu span {
@@ -236,6 +241,8 @@ p {
   margin-right: 12px;
   vertical-align: middle;
 }
+
+
 
 /* About */
 

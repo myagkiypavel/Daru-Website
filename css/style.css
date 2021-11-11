@@ -150,7 +150,7 @@ p {
   background-color: #181F29;
 }
 
-/* New header */
+/* Header */
 .menu {
   padding: 145px 0 165px;
 }
@@ -159,6 +159,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 130px;
 }
 
 .main-menu {
@@ -242,7 +243,11 @@ a.active {
   vertical-align: middle;
 }
 
-
+.header__content-bg {
+  background-image: url(/images/phones_bg.png);
+  background-position: top 110px left 60px;
+  background-repeat: no-repeat;
+}
 
 /* About */
 
